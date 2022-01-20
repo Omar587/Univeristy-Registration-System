@@ -1,5 +1,8 @@
 
+
 ![d2](https://user-images.githubusercontent.com/63128085/150299714-f0b6a693-1b5d-4cc9-8d1c-40cf381e8b95.PNG)
+
+
 
 
 The University database schema is laid out with a lot of foreign keys to model the relationships between entities and constrain system integrity. The schema is normalized and efficient.
