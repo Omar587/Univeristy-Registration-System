@@ -6,7 +6,7 @@ Stored procedures are extensively used for all underlying application functions.
 
 Transactions are implemented to provide concurrency and preserve ACID properties.
 
-Biz:
+Business logic:
 
 The University system has maximum 100 students in a class.
 
@@ -15,7 +15,7 @@ You must satisfy the prerequisite, if one exists.
 Current registrations list shows both in-progress and newly added classes if the Registration process is successful.
 
 
-To run this program
+To run this program:
 
 run the create statements to create the sample data in the SAMPLE DATA folder.
 
