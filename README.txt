@@ -1,3 +1,7 @@
+
+![d2](https://user-images.githubusercontent.com/63128085/150299714-f0b6a693-1b5d-4cc9-8d1c-40cf381e8b95.PNG)
+
+
 The University database schema is laid out with a lot of foreign keys to model the relationships between entities and constrain system integrity. The schema is normalized and efficient.
 
 Materialized views are used for viewing the prerequisites. While quite large, it speeds up the checking of perquisites immensely by avoiding simultaneous large joins which would cause latency with many network clients. It also allows for the economical creation of the last 5 years’ worth of active students. Even though the get_students stored procedure uses “distinct” with the query, we know this is just a list of unique index names which is already distinct and can be filtered for age.
